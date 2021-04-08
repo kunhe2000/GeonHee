@@ -1,26 +1,31 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <script src="Login.js"> </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Tilte>HTML 코딩연습</Tilte>
-</head>
-<body> 
-    <h1>내HTML 연습 사이트</h1>
-    <h2>목차</h2>
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-    <ol>
-        <li><input type="button" value="로그인" onclick="Login()">
-        <li><input type="checkbox"><a href="1.html">아직 모르겠는거</a> </li>
-        <li><a href="2.html">현재 진도</a></li>
-        <li><a href="3.html">앞으로 배워야할것</a></li>
-    </ol>
+    
+<body>
     <p>아아아아아안녀어어어어어엉</p>
-    <a href='https://ko.javascript.info/' target="_blank" title="자바스크립트 코딩정보">
-    자바스크립트 연습 사이트</a>
-    <img src="sea.jpg" width="100%">
+    <script>
+        'use script'
+        let username = prompt('사용자의 이름을 입력해주세요.','');
+        if (username == '이건희'){
+            let password = prompt('비밀번호를 입력해 주세요','');
+            if (password == 'lee7992'){
+                alert('안녕하세요');
+                alert('건희님');}
+                else if(password == '' || password == null){
+                        alert('취소되었습니다');
+                        alert('다시 입력해주세요')}
+                else{
+                    alert('인증에 실패했습니다');
+                }    
+            }
+        
+        else if ( username == '' || username == null ){
+            alert('이름을 다시 입력해주세요');}
+            else{
+                alert('인증에 실패했습니다');
+            }
+        
+    </script>
     <p>만나서 반가워요!!</p>
 </body>
 
